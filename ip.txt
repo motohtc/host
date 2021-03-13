@@ -1,0 +1,16 @@
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+
+rmnet_data1: flags=65<UP,RUNNING>  mtu 1410
+        inet 10.96.180.75  netmask 255.255.255.248
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+
+tun0: flags=81<UP,POINTOPOINT,RUNNING>  mtu 1500
+        inet 172.19.0.1  netmask 255.255.255.252  destination 172.19.0.1
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.123.157  netmask 255.255.255.0  broadcast 192.168.123.255
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 3000  (UNSPEC)
+
